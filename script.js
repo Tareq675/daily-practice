@@ -25,8 +25,8 @@ let number = [10, 15, 20, 30, 50];
 // products[0] = 15;
 // console.log(products);
 
-let arrayConcat = products.concat(number);
-console.log(arrayConcat);
+// let arrayConcat = products.concat(number);
+// console.log(arrayConcat);
 
 // for of loop
 
@@ -37,3 +37,25 @@ console.log(arrayConcat);
 // for (let i = 0; i < products.length; i++) {
 //   console.log(i);
 // }
+
+// let car = {};
+
+// car["passenger quantity"] = 5;
+// console.log(car);
+// console.log(car["passenger quantity"]);
+
+//get all most small number from a array
+let num = [10, 1, 50, 100];
+let smallNum = Math.min(...num);
+// console.log(num);
+// console.log(smallNum);
+
+//get all most big number from a array
+let bigNum = Math.max(...num);
+// console.log(bigNum);
+
+let otp = "";
+for (let i = 0; i < 4; i++) {
+  otp = otp + Math.floor(Math.random() * 10);
+}
+console.log(otp);
